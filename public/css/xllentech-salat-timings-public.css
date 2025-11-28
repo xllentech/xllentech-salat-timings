@@ -1,0 +1,133 @@
+/* Xllentech Salat Timings Monhtly CSS start */
+.xllentech_salat_widget {
+	width: 100%;
+	margin: 0 auto;
+}
+.xllentech_salat_timings table {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 14px;
+	border: #ccc 1px solid;
+	table-layout: fixed;
+}
+.xllentech_salat_timings button {
+	font-size: 13px;
+	font-weight: bolder;
+	height: 35px;
+	opacity: 0.5;
+	width: 100%;
+	border:0;
+}
+.xllentech_salat_timings table th {
+    text-align: center;
+    font-weight: bold;
+	word-break: break-word;
+	padding:0;
+}
+.xllentech_salat_timings table td {
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+	border: #ccc 1px solid;
+}
+table.xst_monthly_table_Default tr:nth-child(even) {
+	background-color:#eee;
+}
+table.xst_monthly_table_Default tr.xllentech-salat-nav {
+	background: #888;
+	color:#fff;
+	font-size:20px;
+	letter-spacing:2px;
+}
+table.xst_monthly_table_Default tr.xllentech-salat-header {
+	background: #aaa;
+	font-size: 15px;
+	color:#fff;
+	line-height:25px;
+}
+.xllentech_salat_timings input[type="text"]{
+	color:#000;
+}
+.xst_present_day {background:#FFFDD0 !important;}
+.xst_print_button{float:right;}
+.xst_print_button button {
+line-height: 0.25em;
+font-size: 25px;
+color: #fff;
+background-color: #3366ff;
+border: 2px solid #3366ff;
+border-radius: 10px;
+padding: 20px 35px;
+-moz-transition: all 0.8s;
+-webkit-transition: all 0.8s;
+transition: all 0.8s;
+}
+.xst_print_button button:hover {
+background-color: #fff;
+color: #3366ff;
+border: 2px solid #3366ff;
+border-radius: 10px;
+padding: 20px 35px;
+}
+.xst_instructions{float:left;}
+.xllentech_salat_timings input[type="submit"]{width:100%;height:35px;padding:0;}
+.xllentech_salat_timings ul.xst_data_form{list-style:none}
+.xllentech_salat_timings ul.xst_data_form li{width:50%;float:left;min-width:195px}
+.xllentech_salat_timings ul.xst_data_form li label{width:95px;display:inline-block;padding:10px}
+.xllentech_salat_timings ul.xst_data_form li input,.xllentech_salat_timings ul.xst_data_form li select{border:1px solid #ddd;color:#666;width:60%}
+.xllentech_salat_timings ul.xst_data_form li.xst_data_submit{width:100%;text-align:center;margin:10px 0}
+.xllentech_salat_timings ul.xst_data_form li.xst_data_submit input{color:#fff;background:#777}
+/* Xllentech salat Timings Monhtly CSS END */
+/*Monthly salat Timings Widget CSS START */
+.xllentech_salat_widget table {
+	width: 100%;
+}
+.xllentech_salat_widget table td {
+	text-align: left;
+	line-height: 25px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 0;
+}
+.xllentech_salat_widget table th {
+	text-align: center;
+	line-height: 30px;
+	background-color: #c5c5c5;
+}
+table.xst_daily_Default {
+	width: 100%;
+}
+.xllentech_salat_widget_link {
+	width: 100%;
+    background: #777;
+    display: block;
+    text-align: center;
+}
+.xllentech_salat_widget_link a{
+	display: block;
+    width: 100%;
+    font-weight: bold;
+	color:#fff;
+    line-height: 2em;
+}
+/*Monthly salat Timings Widget CSS END */
+@media print {
+	body * {
+		visibility: hidden;
+		
+	  }
+	  #printarea, #printarea * {
+		visibility: visible;
+	  }
+	  #printarea {
+		overflow:visible;
+		position:fixed;
+		left:0;
+		top:0;
+		width:100%;
+	  }
+	  #printarea table.xst_monthly_table_Default tr:nth-child(odd) {
+			background-color:#ccc;
+		}
+}

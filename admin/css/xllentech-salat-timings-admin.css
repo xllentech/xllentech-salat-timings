@@ -1,0 +1,11 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .xllentech_salat_widget_form label{font-weight:600}
+.xllentech_salat_options ul.xst_options_ul{list-style:none}.xllentech_salat_options ul.xst_options_ul li label{float:left;width:170px;font-weight:600}.xllentech_salat_options ul.xst_options_ul li{padding:10px 0}
+.xllentech_salat_options ul.xst_options_ul li input[type=radio],.xllentech_salat_options ul.xst_options_ul li input[type=checkbox]{margin-right:5px}
+.xllentech_salat_options ul.xst_methodlist{list-style:none}.xllentech_salat_options ul.xst_methodlist li label{float:left}
+.xllentech_salat_options ul.xst_methodlist .xst_method_column1{width:40%;padding:0 10px;}.xllentech_salat_options ul.xst_methodlist .xst_method_column2{width:15%;padding:0 10px;}
+.xllentech_salat_options ul.xst_methodlist .xst_method_column3{width:25%;padding:0 10px;}.xllentech_salat_options ul.xst_methodlist input.xst_method_column3{width:50px}
+ul.xst_methodlist li{border:1px solid #ccc}
