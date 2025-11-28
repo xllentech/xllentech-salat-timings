@@ -15,7 +15,7 @@
  * Plugin Name:       XllenTech Salat Timings
  * Plugin URI:        https://wordpress.org/plugins/xllentech-salat-timings/
  * Description:       Display Salat Timings Daily and Monthly for Shia Ithna-Ashari Muslims Around the World
- * Version:           1.3.0
+ * Version:           1.3.1
  * Author:            XllenTech Solutions
  * Author URI:        https://xllentech.com/
  * License:           GPL-2.0+
@@ -29,7 +29,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-if ( ! defined( "XST_PLUGIN_VERSION" )) 	define( "XST_PLUGIN_VERSION",  "1.3.0");
+if ( ! defined( "XST_PLUGIN_VERSION" )) 	define( "XST_PLUGIN_VERSION",  "1.3.1");
 if ( ! defined( "XST_PLUGIN_DIR" )) define( "XST_PLUGIN_DIR", plugin_dir_path( __FILE__ ));
 if ( ! defined( 'XST_PLUGIN_URL' ) ) define( 'XST_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 	// Plugin Basename aka: "pluginfolder/mainfile.php"

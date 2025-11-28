@@ -2,8 +2,8 @@
 Contributors: xllentech
 Tags: prayer times, shia prayer times, prayer timings, shia muslim prayer timings
 Requires at least: 3.0
-Tested up to: 6.6
-Stable tag: 1.3.0
+Tested up to: 6.9
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,6 +89,10 @@ Login to Wordpress Admin panel, Visit Settings->Xllentech Salat Timings, Change 
 
 
 == Changelog ==
+= 1.3.1 =
+* Updated: Dark mode support
+* Updated: Compatible upto 6.9
+
 = 1.3.0 =
 * Updated: Compatible upto 6.6
 
